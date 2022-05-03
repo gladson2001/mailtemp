@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HACKFLEDGE</title>
     <style>
         *{
             margin: 0;
@@ -13,11 +13,16 @@
         }
         body{
             font-family:Arial,Helvetica,sans-serif;
-            background-color:#1e744a;
+            background-image:linear-gradient(to right,#1e744a,#011733cb,black);
             font-size: 16px;
-            max-width: 800;
+            max-width: 800px;
             margin:0 auto;
             padding: 3%;
+        }
+        .flex-container{
+            display: flex;
+            justify-content: center;
+            
         }
         img{
             max-width: 100%;
@@ -27,7 +32,7 @@
          }
          #column{
              color: azure;
-             background-color: #1e744a;
+             background-image:(to right #1e744a,#011733cb,black);
          }
          #logo{
              max-width: 200px;
@@ -35,33 +40,68 @@
              margin: 3% 0 3% 3%;
             float: left;
          }
+         #follow{
+             position: absolute;
+            float: right;
+             top: 207%;
+             left: 45%;
+             text-align: center;
+         }
+
          #social{
+             display: flex;
             position: absolute;
              float: right;
-             top: 150%;
-             left: 50%;
+             top: 200%;
+             left: 44%;
              list-style: none;
              margin-top: 5%;
+             
          }
          #social > li{
+                margin:10px ;
+                display: flex;
                 display: inline;
+                justify-content: space-evenly;
+         }
+         #copyright{
+             position:absolute;
+             top: 210%;
+             left: 36%;
+             margin: 5%;
+         }
+         #copyright > li{
+             display: inline;
          }
          #sochead{
              left: 30%;
          }
          #wrapper{
-             background-color:#f0f6fb;
+             background-image:(to right #1e744a,#011733cb,black);
          }
-        #banner {
+        /*#banner {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
         position: relative;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        opacity: 0.65;
         
         }
         .over-img{
         position: absolute;
-        top: 28%;
-        left: 33%;
+        top: 42%;
+        left: 37%;
         width: 300px;
         height: 250px;
+        opacity: 1;
+        }*/
+        .gif{
+            position: absolute
+            ;
         }
         .centered {
         font-size: 40px;
@@ -70,10 +110,25 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-}
+        }
+        button{
+            float: right;
+            margin: 0% 2% 4% 0%;
+            text-decoration: none;
+            font-weight: 800;
+            padding: 8px 12px;
+            border-radius: 8px;
+            letter-spacing: 2px;
+        }
+
     </style>
 </head>
 <body>
+    <div class="flex-container">
+        <div>
+            <img src="https://gfycat.com/plainlivelyamericanbittern" alt="" width="700" height="450">
+        </div>
+    </div>
     <div id="wrapper">
     <header>
        <!--<div id="logo">
@@ -81,54 +136,69 @@
         </div>-->
     
     
-   <div id="banner">
-        <img src="mainpicnew.png" alt="" class="over-img">
-        <img src="tracks2.jpg" alt="" width="1200" height="500">
-       <!-- <div class="centered"><b>HACKFLEDGE</b></div>-->
-    </div>
+   <!--<div id="banner">
+        <img src="https://hackfledge.tech/img/Necessary/tracks2.jpg" alt="" width="1200" height="500">
+   </div>
+   <div>
+        <img src="https://hackfledge.tech/img/Necessary/mainpicnew.png" alt="" class="over-img">
+        <div class="centered"><b>HACKFLEDGE</b></div>-->
+        <!--<div class="gif">
+            <img src="https://giphy.com/gifs/hackfledge-rYSWkjcBPhyL5HrMJR" alt="" width="100" height="100">
+        </div>-->
+    
     </header>
     <div id="column">
+        <br>
         <h1 style="color: azure;">Greetings </h1>
         
-        <h2>Hack club PRC present to you
-            </h2>
+        <h2>Hack Club PRC present to you
+            </h2><br>
         
-        <h1 style="background-color:rgba(185, 185, 99, 0.822) ;text-align: center" >HACKFLEDGE</h1>
-            <h1> </h1>
+        <h1 style="background: color #00c2cb;;text-align: center" >HACKFLEDGE</h1>
+            <br>
+            <br>
         <p style="font-family: Arial,Helvetica,sans-serif;">
-            I am Abel D Mathews, the Lead , Hack club PRC. We are a  student tech club with the aim of improving coding culture in our ever-growing community. We have been hosting events and workshops round the year .</p>
+            I am Abel D Mathews, the Lead , Hack Club PRC. We are a  student tech club with the aim of improving coding culture in our ever-growing community. We have been hosting events and workshops round the year .</p>
+            <br>
 
-
-        <p>  We are putting together the <b style="color: azure;">>HACK FLEDGE</b>, a completely student-run hackathon which seeks to inspire and bring together young developers from all across the globe to build upon their ideas which will shape the next-gen technoverse</p>
+        <p>  We are putting together the <b style="color: azure;">HACKFLEDGE</b>, a completely student-run hackathon which seeks to inspire and bring together young developers from all across the globe to build upon their ideas which will shape the next-gen technoverse</p>
+        <br>
         <p>
             What is so great about our hackathon?
             Our hackathon provides a platform for budding developers from all across India , where they assemble in teams to learn, compete, interact and build up on their dreamt version of the world. With dedicated mentors, life altering sessions from professionals and a developer-friendly environment for first timers as well as seasoned learners, we aim to push them forward in their own journey to change the world to the better.
-            </p>
+            </p><br>
             <p>
-            This year, we are going to conduct the Hackathon in <b>Hybrid mode</b> and we hope to attract hackers from all across India and expect the quality of projects to rise for what can be achieved in 48 hours.</p>
-        </p>
-            <a href="https://hackfledge.tech/" target="_blank"><button type="button">Learn more</button></a>
-            
+            This year, we are going to conduct the Hackathon in <b>Hybrid</b> mode and we hope to attract hackers from all across India and expect the quality of projects to rise for what can be achieved in 48 hours.</p>
+        </p><br>
+        <p>To make this event a grand success, we need help from major sponsors like you so that we could provide for the fiery spirit in our talented young minds with an amazing experience.
+        </p><br>
+        <p>For further details regarding the event sponsorship, please check our website and refer to the attached <a href="https://hackfledge.tech/Sponsorship-Deck.pdf" target="_blank" style="color:aliceblue">Sponsorship Prospectus</a>.
+        </p><br>
+        <p>Drop us a <a href="mailto:hello@hackfledge.tech" style="color: azure;">mail</a> if this is something you may be interested in and we’d be more than happy to arrange a meeting to give you more details or come up with a custom plan specific to your prestigious organization.</p>
+        <br>    
+        <a href="https://hackfledge.tech/" target="_blank"><button type="button">Learn more</button></a>
+        <div id="follow"><b>CONNECT WITH US</b></div>
                 <div id="social">
                     <div id="sochead">
-                    <b>FOLLOW US</b>
+                        
                     </div>
                     <li>
                     <a href="https://hackfledge.tech/" target="_blank">
-                    <img src="website.png" alt="" width="40">
+                    <img src="https://hackfledge.tech/img/Necessary/icons8-gmail-500.png" alt="" width="40">
                     </a>
                     </li>
                     <li>
                     <a href="https://instagram.com/hackfledge/" target="_blank">
-                    <img src="s.png" alt="" width="40">
+                    <img src="https://hackfledge.tech/img/Necessary/icons8-instagram-500.png" alt="" width="40">
                     </a>
                     </li>
                     <li>
                     <a href="https://twitter.com/hackfledge" target="_blank">
-                    <img src="tw-color.png" alt=""width="40" ></a>
+                    <img src="https://hackfledge.tech/img/Necessary/icons8-twitter-500.png" alt=""width="40" ></a>
                     </li>
-        
+                    
                 </div>
+                <div id="copyright">Copyright © 2022, All rights reserved.</div>
             
         </div>
 
